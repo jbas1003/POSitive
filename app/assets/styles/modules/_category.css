@@ -1,0 +1,27 @@
+.category {
+    color: $midnightGreen;
+
+    &__container {
+        display: flex;
+        margin-top: 0.5rem;
+        height: 4rem;
+    }
+
+    &__scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+
+        & a {
+            display: inline-block;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            font-weight: bold;
+
+            &:active {
+            color: #fff;
+            background-color: #19535F;
+        }
+        }
+    }
+}

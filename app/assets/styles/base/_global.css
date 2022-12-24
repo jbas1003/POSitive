@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    background: #F5F5F5;
+}
+
+a, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
